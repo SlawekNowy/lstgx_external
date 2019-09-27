@@ -1,0 +1,5 @@
+#Removing Cubism SDK for Native
+*
+# those files must be in the repo
+!"copy files here"
+!"CMakeLists.txt" #maintained manually
