@@ -1,23 +1,2 @@
-[submodule "NativeFileDialog/src"]
-	path = NativeFileDialog/src
-	url = https://github.com/mlabbe/nativefiledialog.git
-[submodule "BurstLinker/src"]
-	path = BurstLinker/src
-	url = https://github.com/Xrysnow/BurstLinker.git
-[submodule "cLaTeXMath/src"]
-	path = cLaTeXMath/src
-	url = https://github.com/NanoMichael/cLaTeXMath.git
-[submodule "nanosvg"]
-	path = nanosvg
-	url = https://github.com/memononen/nanosvg.git
-[submodule "libzippp/src"]
-	path = libzippp/src
-	url = https://github.com/ctabin/libzippp.git
-[submodule "FairyGUI/src"]
-	path = FairyGUI/src
-	url = https://github.com/fairygui/FairyGUI-cocos2dx.git
-
-# fetch to here by default
-[submodule "ANGLE/src"]
-	path = ANGLE/src
-	url = https://github.com/google/angle
+Most of the remaining dependencies can be hooked by CMake, except two: FFMpeg (via its community made pipeline avbuild) and ANGLE which uses gn. 
+Study where artifacts are build and import them to CMake.
