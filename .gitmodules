@@ -16,9 +16,6 @@
 [submodule "FairyGUI/src"]
 	path = FairyGUI/src
 	url = https://github.com/fairygui/FairyGUI-cocos2dx.git
-[submodule "ANGLE/src"]
-	path = ANGLE/src
-	url = https://github.com/google/angle
 [submodule "OggDecoder/src/ogg"]
 	path = OggDecoder/src/ogg
 	url = https://gitlab.xiph.org/xiph/ogg
