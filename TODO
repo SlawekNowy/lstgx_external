@@ -1,2 +1,2 @@
-Most of the remaining dependencies can be hooked by CMake, except two: FFMpeg (via its community made pipeline avbuild) and ANGLE which uses gn. 
+Most of the remaining dependencies can be hooked by CMake, except one: FFMpeg (via its community made pipeline avbuild).
 Study where artifacts are build and import them to CMake.
