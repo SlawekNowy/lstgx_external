@@ -16,21 +16,8 @@
 [submodule "FairyGUI/src"]
 	path = FairyGUI/src
 	url = https://github.com/fairygui/FairyGUI-cocos2dx.git
+
+# fetch to here by default
 [submodule "ANGLE/src"]
 	path = ANGLE/src
 	url = https://github.com/google/angle
-[submodule "OggDecoder/src/ogg"]
-	path = OggDecoder/src/ogg
-	url = https://gitlab.xiph.org/xiph/ogg
-[submodule "OggDecoder/src/vorbis"]
-	path = OggDecoder/src/vorbis
-	url = https://gitlab.xiph.org/xiph/vorbis
-[submodule "OpenalSoft/src"]
-	path = OpenalSoft/src
-	url = https://github.com/kcat/openal-soft
-[submodule "ffmpeg/src"]
-	path = ffmpeg/src
-	url = https://github.com/wang-bin/avbuild
-[submodule "libzippp/libzip/src"]
-	path = libzippp/libzip/src
-	url = https://github.com/nih-at/libzip
